@@ -1,0 +1,4 @@
+FROM centos
+CMD [ "-al" ]
+ENTRYPOINT ["/usr/bin/ls"]
+# CMD echo "this is test string."
