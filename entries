@@ -42,18 +42,31 @@ Certificate chain length: 1
 Certificate[1]:
 Owner: CN=CA
 Issuer: CN=CA
-Serial number: 3f3ee40
-Valid from: Sun Oct 02 12:22:52 CST 2022 until: Sat Dec 31 12:22:52 CST 2022
+Serial number: 6c2f3248
+Valid from: Sun Oct 02 12:54:29 CST 2022 until: Sat Dec 31 12:54:29 CST 2022
 Certificate fingerprints:
-         SHA1: 3F:C3:CF:15:8B:BD:A5:18:7B:F6:1B:3D:94:3C:72:42:08:A3:2B:E0
-         SHA256: F0:64:D1:2E:3C:4F:3D:2B:4D:1A:00:43:4F:8E:7C:C6:90:78:81:D6:AC:C3:9D:26:F3:F0:18:1E:AA:73:28:98
+         SHA1: C9:6D:5E:9D:CD:31:91:9A:27:B5:CC:30:25:76:BB:F3:A7:A1:C0:02
+         SHA256: 8E:D1:3E:6E:1D:10:01:A9:9A:66:49:1C:B5:F4:23:F0:9E:E9:22:7D:31:15:63:FF:EC:6C:51:CC:87:9E:2A:01
 Signature algorithm name: SHA256withRSA
 Subject Public Key Algorithm: 2048-bit RSA key
 Version: 3
 
 Extensions:
 
-#1: ObjectId: 2.5.29.14 Criticality=false
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: AE D0 22 3D 86 B4 76 C9   7D BC 6A FF 59 56 66 62  .."=..v...j.YVfb
+0010: 3B 1C EC F4                                        ;...
+]
+]
+
+#2: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: ca1
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
 SubjectKeyIdentifier [
 KeyIdentifier [
 0000: AB CD F7 1A 6F 9E D7 AC   A3 81 52 90 DC D8 DA EB  ....o.....R.....
@@ -121,7 +134,7 @@ Extensions:
 SubjectKeyIdentifier [
 KeyIdentifier [
 0000: 89 D0 B9 BD BE CB 9E AA   BE 43 0E AA A7 F4 0C 0C  .........C......
-0010: EE F9 1D 28                                       ...'
+0010: EE F9 1D 27                                        ...'
 ]
 ]
 
