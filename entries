@@ -1,0 +1,131 @@
+Keystore type: PKCS12
+Keystore provider: SunJSSE
+
+Your keystore contains 4 entries
+
+Alias name: ca
+Creation date: Oct 2, 2022
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=CA
+Issuer: CN=CA
+Serial number: 56a633a5
+Valid from: Sun Oct 02 12:18:13 CST 2022 until: Sat Dec 31 12:18:13 CST 2022
+Certificate fingerprints:
+         SHA1: F4:97:80:20:6F:89:51:BF:5B:7D:25:32:0F:A3:DD:59:88:95:35:DB
+         SHA256: 24:17:A4:1F:42:0A:22:DC:43:04:D9:FF:AE:77:36:67:1A:C6:77:F5:0E:B0:03:C7:0E:DA:FB:26:89:ED:81:F6
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: AE D0 22 3D 86 B4 76 C9   7D BC 6A FF 59 56 66 62  .."=..v...j.YVfb
+0010: 3B 1C EC F4                                        ;...
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: ca1
+Creation date: Oct 2, 2022
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=CA
+Issuer: CN=CA
+Serial number: 3f3ee40
+Valid from: Sun Oct 02 12:22:52 CST 2022 until: Sat Dec 31 12:22:52 CST 2022
+Certificate fingerprints:
+         SHA1: 3F:C3:CF:15:8B:BD:A5:18:7B:F6:1B:3D:94:3C:72:42:08:A3:2B:E0
+         SHA256: F0:64:D1:2E:3C:4F:3D:2B:4D:1A:00:43:4F:8E:7C:C6:90:78:81:D6:AC:C3:9D:26:F3:F0:18:1E:AA:73:28:98
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: AB CD F7 1A 6F 9E D7 AC   A3 81 52 90 DC D8 DA EB  ....o.....R.....
+0010: 8A EB 20 80                                        .. .
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: ca2
+Creation date: Oct 2, 2022
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=CA
+Issuer: CN=CA
+Serial number: 6a991595
+Valid from: Sun Oct 02 12:23:01 CST 2022 until: Sat Dec 31 12:23:01 CST 2022
+Certificate fingerprints:
+         SHA1: 57:4E:60:BC:0D:5C:A1:FF:27:3B:B1:30:29:6E:62:D7:FC:F4:9C:64
+         SHA256: 51:7C:22:81:DA:52:7F:2B:BC:21:56:92:24:08:3C:30:92:7E:55:9C:83:73:B8:42:26:10:9E:E3:8C:FF:81:E5
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 08 C1 83 F1 3C C1 C1 B6   79 50 9E 39 A3 9B 17 EE  ....<...yP.9....
+0010: BA 14 22 97                                        ..".
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: cn
+Creation date: Oct 2, 2022
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=CN
+Issuer: CN=CN
+Serial number: 36e8d01c
+Valid from: Sun Oct 02 12:23:20 CST 2022 until: Sat Dec 31 12:23:20 CST 2022
+Certificate fingerprints:
+         SHA1: 78:96:CC:EE:39:77:27:B4:00:A7:F4:4B:73:74:C7:DF:89:0B:F5:32
+         SHA256: C5:C4:2C:94:E1:53:5B:DE:21:33:3D:2E:E5:5A:32:78:34:38:0E:64:D2:34:D3:B9:78:37:47:4B:50:B5:68:DB
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 89 D0 B9 BD BE CB 9E AA   BE 43 0E AA A7 F4 0C 0C  .........C......
+0010: EE F9 1D 28                                       ...'
+]
+]
+
+
+
+*******************************************
+*******************************************
